@@ -1,0 +1,413 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+/* Scl Btns*/
+
+#scl-btns {
+	position: fixed;
+	right: 0px;
+	top: 40%;
+	z-index: 500;
+
+	}
+
+#scl-btns img {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 20px;
+}
+
+/* Header */
+hr {
+	margin: 0px;
+	padding: 0px;
+	border: 3px solid #03518e;
+	
+}
+
+
+#qu img {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 60px;
+}
+
+#bc img {
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+
+}
+
+.row {
+	margin: 0px;
+}
+
+/* Greeting */
+
+.container-fluid {
+	margin: 0px;
+	padding: 0px;
+}
+
+#fbanner {
+	width: 100%;
+}
+
+#greeting {
+	position: relative;
+}
+
+#text-banner {
+	position: absolute;
+	top: 30%;
+	right: 15%;
+	color: white;
+	width: 70%;
+	text-align: center;
+	text-shadow: 1px 1px 10px black;
+}
+
+.main-greet {
+	font-size: 50px;
+	}
+
+.sub-greet {
+	margin-top: 30px;
+	font-size: 26px;
+	}
+
+
+/* Form */
+
+.form {
+	margin: 20px 20px;
+	border: 2px solid #03518e;
+}
+
+.form h3 {
+	margin-bottom: 30px;
+}
+
+.form-control {
+	width: 60%;
+}
+
+.form-group {
+	margin-top: 10px;
+}
+
+.control-label {
+	padding-top: 5px;
+	text-align: right;
+}
+
+.checkbox {
+	text-align: center;
+}
+
+#button {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.btn-default:hover {
+	background-color: #03518e;
+	color: white;
+}
+
+/* comp Banner */
+
+
+.comp-banner {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+#cbanner {
+	width: 100%;
+	-webkit-filter: opacity(.8);
+	filter: opacity(.8);
+	}
+
+.text-banner {
+	color: white;
+	font-size: 2vw;
+	text-shadow: 1px 1px 10px black;
+}
+
+#comp-banner-text {
+	position: absolute;
+	top: 20%;
+	right: 15%;
+	width: 70%;
+	height: 90%;
+	text-align: center;
+}
+
+#two-btns {
+	margin-top: 100px;
+}
+
+#two-btns .btn-default {
+	width: 160px;
+	margin: 10px;
+}
+
+#one-btn {
+	margin-top: 80px;
+}
+
+#find-out {
+	width: 70%;
+	position: absolute;
+	bottom: 30%;
+	left: 15%;
+}
+
+span.glyphicon-menu-down {
+	color: white;
+	font-size: 50px;
+	position: absolute;
+	top: 70%;
+	left: 45%;
+	text-shadow: 1px 1px 10px black;
+}
+
+/* Tiles */
+
+
+
+.tile {
+	width: 70%;
+	height: 250px;
+	margin: 20px auto;
+	position: relative;
+	-webkit-filter: brightness(1);
+	filter: brightness(1);
+	-webkit-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+
+}
+
+.tile span {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 100%;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	background: #03518e;
+	opacity: .8;
+	padding: 5px;
+}
+
+#aid-tile:hover, #rocky-tile:hover, #act-tile:hover, #majors-tile:hover {
+	box-shadow: 0 0 2px 2px #03518e;
+	-webkit-filter: brightness(1.1);
+	filter: brightness(1.1);
+		
+	
+	}
+
+#aid-tile {
+	background: url(../images/tile1.jpg);
+	background-position: center;
+	}
+
+#rocky-tile {
+	background: url(../images/tile2.jpg);
+	background-position: center;
+}
+
+#act-tile {
+	background: url(../images/tile3.jpg);
+	background-position: center;
+}
+
+#majors-tile {
+	background: url(../images/tile4.jpg);
+	background-position: top;
+}
+
+/*
+.row {
+	background: url(../images/grey_QB_logo.png);
+	background-position: center;
+}
+*/
+
+/***************************** Medium Devices ********************************/
+@media (min-width: 992px) {
+
+
+    
+}
+
+/***************************** Smal Devices ********************************/
+@media (min-width: 768px) and (max-width: 991px) {
+
+/* Greeting */
+
+
+#text-banner {
+	top: 25%;
+	}
+
+.sub-greet {
+	font-size: 2.4vw;
+}
+
+.main-greet {
+	font-size: 4.5vw;
+}
+
+/* Form */
+
+.form-control {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.control-label {
+	text-align: left;
+	margin-left: 25px;
+	
+}
+
+/* Tiles */
+
+.tile {
+	width: 80%;
+}
+
+}
+
+/************************** Extra Small Devices *****************************/
+
+@media (max-width: 767px) {
+
+/* Greeting */
+
+#text-banner {
+	top: 15%;
+}
+
+.sub-greet {
+	font-size: 3.2vw;
+}
+
+.main-greet {
+	font-size: 4.8vw;
+}
+
+
+/* Form */
+
+.form-control {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.control-label {
+	margin-left: 17%;
+}
+
+/* comp banner */
+#one-btn {
+	margin-top: 35px;
+}
+
+/* Tiles */
+
+.tile {
+	width: 60%;
+}
+
+}
+
+
+/************************** Super Extra Small Devices *****************************/
+
+@media (max-width: 500px) {
+
+#scl-btns img {
+	width: 35px;
+	height: 35px;
+}
+
+/* Header */
+
+#bc img {
+	height: 80px;
+}
+
+#qu img {
+	margin-left: 30px;
+	height: 40px;
+		}
+
+/* Greeting */
+
+.sub-greet {
+	margin-top: 10px;
+}
+
+
+/* Form */
+.form-control {
+	width: 80%;
+}
+
+.control-label {
+	margin-left: 5%;
+}
+
+.form h3 {
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+
+/* comp banner */
+
+#one-btn {
+	margin-top: 10px;
+}
+
+#find-out {
+	width: 100%;
+	left: 1%;
+	bottom: 17%;
+}
+
+#comp-banner-text {
+	width: 90%;
+	top: 10%;
+	left: 5%;
+}
+
+.text-banner {
+	font-size: 0.8em;
+}
+
+span.glyphicon-menu-down {
+	top: 80%;
+	font-size: 30px;
+}
+
+/* Tiles */
+
+.tile {
+	width: 90%;
+}
+
+}
