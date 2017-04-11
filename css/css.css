@@ -77,14 +77,15 @@ hr {
 	text-shadow: 1px 1px 10px black;
 }
 
-.main-greet {
+/* .main-greet {
 	font-size: 50px;
 	}
 
 .sub-greet {
 	margin-top: 30px;
 	font-size: 26px;
-	}
+	} 
+*/
 
 
 /* Form */
@@ -142,7 +143,7 @@ hr {
 
 .text-banner {
 	color: white;
-	font-size: 2em;
+	/* font-size: 2em; */
 	text-shadow: 1px 1px 10px black;
 }
 
@@ -265,13 +266,14 @@ span.glyphicon-menu-down {
 	top: 25%;
 	}
 
-.sub-greet {
+/* .sub-greet {
 	font-size: 2.4em;
 }
 
 .main-greet {
 	font-size: 4.5em;
 }
+	*/
 
 /* Form */
 
@@ -306,14 +308,14 @@ span.glyphicon-menu-down {
 	top: 15%;
 }
 
-.sub-greet {
+/* .sub-greet {
 	font-size: 3.2em;
 }
 
 .main-greet {
 	font-size: 4.8em;
 }
-
+*/
 
 /* Form */
 
@@ -399,10 +401,11 @@ span.glyphicon-menu-down {
 	top: 10%;
 	left: 5%;
 }
-
+/* 
 .text-banner {
 	font-size: 0.8em;
 }
+	*/
 
 span.glyphicon-menu-down {
 	top: 80%;
