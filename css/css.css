@@ -69,7 +69,7 @@ hr {
 
 #text-banner {
 	position: absolute;
-	top: 30%;
+	top: 10%;
 	right: 15%;
 	color: white;
 	width: 70%;
@@ -84,7 +84,7 @@ h1.main-greet {
 
 h4.sub-greet {
 	margin-top: 30px;
-	font-size: 4em;
+	font-size: 3em;
 	} 
 
 /* Form */
@@ -142,7 +142,7 @@ h4.sub-greet {
 
 .text-banner {
 	color: white;
-	/* font-size: 2em; */
+	font-size: 2em; 
 	text-shadow: 1px 1px 10px black;
 }
 
