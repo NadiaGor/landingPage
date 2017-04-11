@@ -305,16 +305,17 @@ span.glyphicon-menu-down {
 /* Greeting */
 
 #text-banner {
-	top: 15%;
+	top: 0%;
+}
+h1.main-greet {
+	font-size: 1.6em;
+}
+	
+h1.sub-greet {
+	font-size: 0.8em;
 }
 
-/* .sub-greet {
-	font-size: 3.2em;
-}
 
-.main-greet {
-	font-size: 4.8em;
-}
 */
 
 /* Form */
@@ -333,6 +334,10 @@ span.glyphicon-menu-down {
 #one-btn {
 	margin-top: 35px;
 }
+h4.text-banner {
+	font-size: 1em;
+}
+	
 
 /* Tiles */
 
