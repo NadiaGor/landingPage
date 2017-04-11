@@ -259,11 +259,11 @@ span.glyphicon-menu-down {
 	}
 
 	
-.main-greet {
+h1.main-greet {
 	font-size: 3em;
 }
 	
-.sub-greet {
+h4.sub-greet {
 	font-size: 2em;
 }
 
@@ -367,7 +367,7 @@ h4.text-banner {
 
 /* Greeting */
 
-.sub-greet {
+h1.sub-greet {
 	margin-top: 10px;
 }
 
