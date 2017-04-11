@@ -241,12 +241,6 @@ span.glyphicon-menu-down {
 	background-position: top;
 }
 
-/*
-.row {
-	background: url(../images/grey_QB_logo.png);
-	background-position: center;
-}
-*/
 
 /***************************** Medium Devices ********************************/
 @media (min-width: 992px) {
@@ -261,17 +255,17 @@ span.glyphicon-menu-down {
 
 
 #text-banner {
-	top: 25%;
+	top: 5%;
 	}
 
-/* .sub-greet {
-	font-size: 2.4em;
-}
-
+	
 .main-greet {
-	font-size: 4.5em;
+	font-size: 3em;
 }
-	*/
+	
+.sub-greet {
+	font-size: 2em;
+}
 
 /* Form */
 
@@ -287,7 +281,15 @@ span.glyphicon-menu-down {
 	margin-left: 25px;
 	
 }
+/* Comp Banner */
+span.glyphicon-menu-down {
+	top: 75%;
+}
 
+h4#find-out.text-banner {
+	font-size: 1.2em;
+}
+	
 /* Tiles */
 
 .tile {
@@ -312,9 +314,6 @@ h1.main-greet {
 h1.sub-greet {
 	font-size: 0.8em;
 }
-
-
-*/
 
 /* Form */
 
