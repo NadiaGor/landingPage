@@ -77,7 +77,15 @@ hr {
 	text-shadow: 1px 1px 10px black;
 }
 
+	
+h1.main-greet {
+	font-size: 4em;
+	}
 
+h4.sub-greet {
+	margin-top: 30px;
+	font-size: 4em;
+	} 
 
 /* Form */
 
@@ -242,15 +250,7 @@ span.glyphicon-menu-down {
 
 /***************************** Medium Devices ********************************/
 @media (min-width: 992px) {
-	
-h1.main-greet {
-	font-size: 4em;
-	}
 
-h4.sub-greet {
-	margin-top: 30px;
-	font-size: 4em;
-	} 
     
 }
 
