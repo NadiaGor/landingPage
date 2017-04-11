@@ -148,7 +148,7 @@ h4.sub-greet {
 
 #comp-banner-text {
 	position: absolute;
-	top: 20%;
+	top: 10%;
 	right: 15%;
 	width: 70%;
 	height: 90%;
@@ -170,17 +170,15 @@ h4.sub-greet {
 
 #find-out {
 	width: 70%;
-	position: absolute;
-	bottom: 30%;
-	left: 15%;
+	margin: 30px auto 10px auto;
+
 }
 
 span.glyphicon-menu-down {
 	color: white;
 	font-size: 50px;
-	position: absolute;
-	top: 70%;
-	left: 45%;
+	margin-left: auto;
+	margin-right: auto;
 	text-shadow: 1px 1px 10px black;
 }
 
