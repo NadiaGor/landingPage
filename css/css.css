@@ -311,8 +311,9 @@ h1.main-greet {
 	font-size: 1.6em;
 }
 	
-h1.sub-greet {
+h4.sub-greet {
 	font-size: 0.8em;
+	margin-top: 10px;
 }
 
 /* Form */
@@ -367,9 +368,6 @@ h4.text-banner {
 
 /* Greeting */
 
-h1.sub-greet {
-	margin-top: 10px;
-}
 
 
 /* Form */
