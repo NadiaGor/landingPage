@@ -396,14 +396,15 @@ h4.text-banner {
 
 #comp-banner-text {
 	width: 90%;
-	top: 10%;
+	top: 0%;
 	left: 5%;
 }
-/* 
-.text-banner {
-	font-size: 0.8em;
+
+#find-out {
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
-	*/
+
 
 span.glyphicon-menu-down {
 	top: 80%;
