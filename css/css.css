@@ -306,11 +306,11 @@ h4#find-out.text-banner {
 	top: 0%;
 }
 h1.main-greet {
-	font-size: 1.6em;
+	font-size: 3em;
 }
 	
 h4.sub-greet {
-	font-size: 0.8em;
+	font-size: 1.8em;
 	margin-top: 10px;
 }
 
@@ -331,7 +331,7 @@ h4.sub-greet {
 	margin-top: 35px;
 }
 h4.text-banner {
-	font-size: 1em;
+	font-size: 1.8em;
 }
 	
 
