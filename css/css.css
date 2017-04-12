@@ -346,7 +346,7 @@ h4.text-banner {
 
 /************************** Super Extra Small Devices *****************************/
 
-@media (max-width: 500px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
 
 #scl-btns img {
 	width: 35px;
