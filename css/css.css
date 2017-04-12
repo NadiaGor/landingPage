@@ -413,6 +413,9 @@ h4.sub-greet {
 	margin-bottom: 0px;
 }
 
+	.text-banner {
+		font-size: 1em;
+	}
 
 span.glyphicon-menu-down {
 	top: 80%;
@@ -440,6 +443,10 @@ span.glyphicon-menu-down {
 	h4.sub-greet {
 		font-size: 0.8em;
 		margin-top: 10px;
+	}
+	
+	.text-banner {
+		font-size: 1em;
 	}
 }
 
