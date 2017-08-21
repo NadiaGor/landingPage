@@ -346,7 +346,7 @@ h4.text-banner {
 
 
 /************************** Super Extra Small Devices *****************************/
-@media (max-width: 319px) {
+@media screen and (max-width: 319px) {
 	h4.sub-greet {
 		display: none;
 	}
